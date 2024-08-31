@@ -1,28 +1,16 @@
 'use client'
 
-import React, { use, useEffect, useState } from 'react';
+import React from 'react';
 import { useQuery } from '@tanstack/react-query';
 import getCities from '@/api/getCitiesListData';
 import getKomoApartments from '@/api/scrape/getKomoApartemnentList';
 
 
-const SelectCity = () => {
-    const [selectedCity, setSelectedCity] = useState('');
-
+export default function ApartmentsList() {
     const { data, isLoading, isError } = useQuery({
-        queryFn: async () => await getCities(),
+        queryFn: async () => await getKomoApartments(),
         queryKey: ["cities"],
     });
-
-    const { data: apartmentsData, isLoading: apartmentsIsLoading, isError: apartmentsIsError } = useQuery({
-        queryFn: async () => await getKomoApartments(selectedCity),
-        enabled: !!selectedCity,
-        queryKey: ["komoapartments"],
-    });
-
-    useEffect(() => {
-        console.log(selectedCity);
-    }, [selectedCity]);
 
     if (isLoading) return <div>Loading...</div>;
     if (isError) return <div>Error loading cities</div>;
@@ -34,14 +22,12 @@ const SelectCity = () => {
             </label>
             <div className="relative">
                 <select
-                    onChange={(e) => setSelectedCity(e.target.value)}
-                    value={selectedCity}
                     id="beautifulSelect"
                     className="block appearance-none w-full bg-white border border-gray-300 hover:border-gray-400 px-4 py-2 pr-8 rounded-lg shadow leading-tight focus:outline-none focus:shadow-outline"
                 >
                     <option value="">בחרו עיר</option>
                     {data && data.record.map((city: { id: string; name: string }) => (
-                        <option key={city.name} value={city.name} >
+                        <option key={city.id} value={city.id}>
                             {city.name}
                         </option>
                     ))}
@@ -55,5 +41,3 @@ const SelectCity = () => {
         </div>
     );
 };
-
-export default SelectCity;
