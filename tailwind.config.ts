@@ -15,6 +15,13 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  variants: {
+    float: ['responsive', 'direction'],
+    margin: ['responsive', 'direction'],
+    padding: ['responsive', 'direction'],
+  },
+  plugins: [
+    require('tailwindcss-dir')(),
+  ],
 };
 export default config;

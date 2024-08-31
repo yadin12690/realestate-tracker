@@ -1,5 +1,4 @@
 import SelectCity from "@/components/SelectCity";
-import Image from "next/image";
 
 export default function Home() {
   return (
