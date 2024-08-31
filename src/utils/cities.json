@@ -1,0 +1,794 @@
+[
+    {
+        "num": 1312,
+        "name": "תל אביב - יפו",
+        "alternateName": "תל אביב יפו",
+        "counter": 483
+    },
+    {
+        "num": 1032,
+        "name": "ירושלים",
+        "alternateName": "ירושלים",
+        "counter": 447
+    },
+    {
+        "num": 1216,
+        "name": "ראשון לציון",
+        "alternateName": "ראשון לציון",
+        "counter": 300
+    },
+    {
+        "num": 1155,
+        "name": "חיפה",
+        "alternateName": "חיפה",
+        "counter": 289
+    },
+    {
+        "num": 1213,
+        "name": "פתח תקווה",
+        "alternateName": "פתח תקוה",
+        "counter": 258
+    },
+    {
+        "num": 1205,
+        "name": "אשקלון",
+        "alternateName": "אשקלון",
+        "counter": 257
+    },
+    {
+        "num": 1223,
+        "name": "באר שבע",
+        "alternateName": "באר שבע",
+        "counter": 255
+    },
+    {
+        "num": 1208,
+        "name": "נתניה",
+        "alternateName": "נתניה",
+        "counter": 200
+    },
+    {
+        "num": 44,
+        "name": "אשדוד",
+        "alternateName": "אשדוד",
+        "counter": 195
+    },
+    {
+        "num": 1196,
+        "name": "בת ים",
+        "alternateName": "בת ים",
+        "counter": 186
+    },
+    {
+        "num": 1200,
+        "name": "חולון",
+        "alternateName": "חולון",
+        "counter": 179
+    },
+    {
+        "num": 1219,
+        "name": "רמת גן",
+        "alternateName": "רמת גן",
+        "counter": 170
+    },
+    {
+        "num": 1217,
+        "name": "רחובות",
+        "alternateName": "רחובות",
+        "counter": 151
+    },
+    {
+        "num": 1218,
+        "name": "רמלה",
+        "alternateName": "רמלה",
+        "counter": 110
+    },
+    {
+        "num": 1023,
+        "name": "קריית גת",
+        "alternateName": "קרית גת",
+        "counter": 104
+    },
+    {
+        "num": 1195,
+        "name": "בני ברק",
+        "alternateName": "בני ברק",
+        "counter": 103
+    },
+    {
+        "num": 1211,
+        "name": "עפולה",
+        "alternateName": "עפולה",
+        "counter": 101
+    },
+    {
+        "num": 1024,
+        "name": "ראש העין",
+        "alternateName": "ראש העין",
+        "counter": 100
+    },
+    {
+        "num": 1199,
+        "name": "חדרה",
+        "alternateName": "חדרה",
+        "counter": 96
+    },
+    {
+        "num": 1021,
+        "name": "בית שמש",
+        "alternateName": "בית שמש",
+        "counter": 93
+    },
+    {
+        "num": 1349,
+        "name": "חריש",
+        "alternateName": "חריש",
+        "counter": 88
+    },
+    {
+        "num": 1204,
+        "name": "לוד",
+        "alternateName": "לוד",
+        "counter": 87
+    },
+    {
+        "num": 1210,
+        "name": "עכו",
+        "alternateName": "עכו",
+        "counter": 85
+    },
+    {
+        "num": 1020,
+        "name": "אילת",
+        "alternateName": "אילת",
+        "counter": 85
+    },
+    {
+        "num": 1201,
+        "name": "טבריה",
+        "alternateName": "טבריה",
+        "counter": 83
+    },
+    {
+        "num": 1203,
+        "name": "כפר סבא",
+        "alternateName": "כפר סבא",
+        "counter": 78
+    },
+    {
+        "num": 1198,
+        "name": "הרצליה",
+        "alternateName": "הרצליה",
+        "counter": 75
+    },
+    {
+        "num": 838,
+        "name": "מודיעין-מכבים-רעות",
+        "alternateName": "מודיעין-מכבים-רעות",
+        "counter": 68
+    },
+    {
+        "num": 1025,
+        "name": "רמת השרון",
+        "alternateName": "רמת השרון",
+        "counter": 67
+    },
+    {
+        "num": 1215,
+        "name": "קריית מוצקין",
+        "alternateName": "קרית מוצקין",
+        "counter": 66
+    },
+    {
+        "num": 1015,
+        "name": "אור יהודה",
+        "alternateName": "אור יהודה",
+        "counter": 64
+    },
+    {
+        "num": 1202,
+        "name": "קריית אתא",
+        "alternateName": "קרית אתא",
+        "counter": 62
+    },
+    {
+        "num": 1197,
+        "name": "גבעתיים",
+        "alternateName": "גבעתיים",
+        "counter": 61
+    },
+    {
+        "num": 1013,
+        "name": "דימונה",
+        "alternateName": "דימונה",
+        "counter": 59
+    },
+    {
+        "num": 1026,
+        "name": "יבנה",
+        "alternateName": "יבנה",
+        "counter": 57
+    },
+    {
+        "num": 714,
+        "name": "שדרות",
+        "alternateName": "שדרות",
+        "counter": 56
+    },
+    {
+        "num": 160,
+        "name": "נתיבות",
+        "alternateName": "נתיבות",
+        "counter": 55
+    },
+    {
+        "num": 1224,
+        "name": "נהריה",
+        "alternateName": "נהרייה",
+        "counter": 54
+    },
+    {
+        "num": 1017,
+        "name": "באר יעקב",
+        "alternateName": "באר יעקב",
+        "counter": 54
+    },
+    {
+        "num": 1220,
+        "name": "רעננה",
+        "alternateName": "רעננה",
+        "counter": 50
+    },
+    {
+        "num": 1228,
+        "name": "קריית ביאליק",
+        "alternateName": "קרית ביאליק",
+        "counter": 48
+    },
+    {
+        "num": 711,
+        "name": "מבשרת ציון",
+        "alternateName": "מבשרת ציון",
+        "counter": 47
+    },
+    {
+        "num": 1022,
+        "name": "קריית אונו",
+        "alternateName": "קרית אונו",
+        "counter": 43
+    },
+    {
+        "num": 1047,
+        "name": "אריאל",
+        "alternateName": "אריאל",
+        "counter": 43
+    },
+    {
+        "num": 1227,
+        "name": "יהוד מונוסון",
+        "alternateName": "יהוד מונוסון",
+        "counter": 42
+    },
+    {
+        "num": 1230,
+        "name": "הוד השרון",
+        "alternateName": "הוד השרון",
+        "counter": 41
+    },
+    {
+        "num": 1206,
+        "name": "נס ציונה",
+        "alternateName": "נס ציונה",
+        "counter": 41
+    },
+    {
+        "num": 715,
+        "name": "קריית מלאכי",
+        "alternateName": "קרית מלאכי",
+        "counter": 38
+    },
+    {
+        "num": 712,
+        "name": "אור עקיבא",
+        "alternateName": "אור עקיבא",
+        "counter": 36
+    },
+    {
+        "num": 736,
+        "name": "מעלות תרשיחא",
+        "alternateName": "מעלות-תרשיחא",
+        "counter": 34
+    },
+    {
+        "num": 1073,
+        "name": "מעלה אדומים",
+        "alternateName": "מעלה אדומים",
+        "counter": 34
+    },
+    {
+        "num": 1212,
+        "name": "פרדס חנה כרכור",
+        "alternateName": "פרדס חנה-כרכור",
+        "counter": 33
+    },
+    {
+        "num": 106,
+        "name": "כפר יונה",
+        "alternateName": "כפר יונה",
+        "counter": 32
+    },
+    {
+        "num": 1012,
+        "name": "טירת כרמל",
+        "alternateName": "טירת כרמל",
+        "counter": 30
+    },
+    {
+        "num": 1016,
+        "name": "נשר",
+        "alternateName": "נשר",
+        "counter": 29
+    },
+    {
+        "num": 486,
+        "name": "גבעת שמואל",
+        "alternateName": "גבעת שמואל",
+        "counter": 28
+    },
+    {
+        "num": 1019,
+        "name": "ערד",
+        "alternateName": "ערד",
+        "counter": 25
+    },
+    {
+        "num": 735,
+        "name": "נוף הגליל",
+        "alternateName": "נוף הגליל",
+        "counter": 24
+    },
+    {
+        "num": 659,
+        "name": "מגדל העמק",
+        "alternateName": "מגדל העמק",
+        "counter": 24
+    },
+    {
+        "num": 1115,
+        "name": "גבעת זאב",
+        "alternateName": "גבעת זאב",
+        "counter": 24
+    },
+    {
+        "num": 1229,
+        "name": "קריית ים",
+        "alternateName": "קרית ים",
+        "counter": 24
+    },
+    {
+        "num": 1154,
+        "name": "מודיעין עילית",
+        "alternateName": "מודיעין עילית",
+        "counter": 23
+    },
+    {
+        "num": 17,
+        "name": "אופקים",
+        "alternateName": "אופקים",
+        "counter": 23
+    },
+    {
+        "num": 1225,
+        "name": "בית שאן",
+        "alternateName": "בית שאן",
+        "counter": 22
+    },
+    {
+        "num": 1140,
+        "name": "ביתר עילית",
+        "alternateName": "ביתר עילית",
+        "counter": 20
+    },
+    {
+        "num": 149,
+        "name": "גני תקווה",
+        "alternateName": "גני תקוה",
+        "counter": 19
+    },
+    {
+        "num": 1018,
+        "name": "גדרה",
+        "alternateName": "גדרה",
+        "counter": 19
+    },
+    {
+        "num": 624,
+        "name": "ירוחם",
+        "alternateName": "ירוחם",
+        "counter": 17
+    },
+    {
+        "num": 784,
+        "name": "כרמיאל",
+        "alternateName": "כרמיאל",
+        "counter": 17
+    },
+    {
+        "num": 926,
+        "name": "אלעד",
+        "alternateName": "אלעד",
+        "counter": 17
+    },
+    {
+        "num": 766,
+        "name": "צור הדסה",
+        "alternateName": "צור הדסה",
+        "counter": 15
+    },
+    {
+        "num": 1214,
+        "name": "צפת",
+        "alternateName": "צפת",
+        "counter": 15
+    },
+    {
+        "num": 1285,
+        "name": "צור יצחק",
+        "alternateName": "צור יצחק",
+        "counter": 15
+    },
+    {
+        "num": 157,
+        "name": "יקנעם עילית",
+        "alternateName": "יקנעם עלית",
+        "counter": 14
+    },
+    {
+        "num": 1226,
+        "name": "זכרון יעקב",
+        "alternateName": "זכרון יעקב",
+        "counter": 14
+    },
+    {
+        "num": 406,
+        "name": "אזור",
+        "alternateName": "אזור",
+        "counter": 13
+    },
+    {
+        "num": 677,
+        "name": "רכסים",
+        "alternateName": "רכסים",
+        "counter": 12
+    },
+    {
+        "num": 15,
+        "name": "מזכרת בתיה",
+        "alternateName": "מזכרת בתיה",
+        "counter": 12
+    },
+    {
+        "num": 1068,
+        "name": "קריית ארבע",
+        "alternateName": "קרית ארבע",
+        "counter": 10
+    },
+    {
+        "num": 32,
+        "name": "עתלית",
+        "alternateName": "עתלית",
+        "counter": 10
+    },
+    {
+        "num": 1031,
+        "name": "קריית שמונה",
+        "alternateName": "קרית שמונה",
+        "counter": 10
+    },
+    {
+        "num": 66,
+        "name": "מצפה רמון",
+        "alternateName": "מצפה רמון",
+        "counter": 9
+    },
+    {
+        "num": 1100,
+        "name": "עמנואל",
+        "alternateName": "עמנואל",
+        "counter": 9
+    },
+    {
+        "num": 128,
+        "name": "קדימה צורן",
+        "alternateName": "קדימה-צורן",
+        "counter": 9
+    },
+    {
+        "num": 1038,
+        "name": "אלקנה",
+        "alternateName": "אלקנה",
+        "counter": 6
+    },
+    {
+        "num": 987,
+        "name": "חצור הגלילית",
+        "alternateName": "חצור הגלילית",
+        "counter": 6
+    },
+    {
+        "num": 1146,
+        "name": "נעלה",
+        "alternateName": "נעלה",
+        "counter": 6
+    },
+    {
+        "num": 782,
+        "name": "קריית יערים",
+        "alternateName": "קרית יערים",
+        "counter": 6
+    },
+    {
+        "num": 1179,
+        "name": "קצרין",
+        "alternateName": "קצרין",
+        "counter": 5
+    },
+    {
+        "num": 1139,
+        "name": "כוכב יעקב",
+        "alternateName": "כוכב יעקב",
+        "counter": 4
+    },
+    {
+        "num": 1122,
+        "name": "אלפי מנשה",
+        "alternateName": "אלפי מנשה",
+        "counter": 4
+    },
+    {
+        "num": 1150,
+        "name": "אבני חפץ",
+        "alternateName": "אבני חפץ",
+        "counter": 4
+    },
+    {
+        "num": 1102,
+        "name": "ברכה",
+        "alternateName": "ברכה",
+        "counter": 4
+    },
+    {
+        "num": 104,
+        "name": "גן יבנה",
+        "alternateName": "גן יבנה",
+        "counter": 4
+    },
+    {
+        "num": 925,
+        "name": "שוהם",
+        "alternateName": "שוהם",
+        "counter": 4
+    },
+    {
+        "num": 93,
+        "name": "תל מונד",
+        "alternateName": "תל מונד",
+        "counter": 4
+    },
+    {
+        "num": 344,
+        "name": "קריית עקרון",
+        "alternateName": "קרית עקרון",
+        "counter": 3
+    },
+    {
+        "num": 1114,
+        "name": "עלי זהב",
+        "alternateName": "עלי זהב",
+        "counter": 3
+    },
+    {
+        "num": 1014,
+        "name": "קריית טבעון",
+        "alternateName": "קרית טבעון",
+        "counter": 3
+    },
+    {
+        "num": 739,
+        "name": "בני עייש",
+        "alternateName": "בני עייש",
+        "counter": 3
+    },
+    {
+        "num": 789,
+        "name": "אלומה",
+        "alternateName": "אלומה",
+        "counter": 3
+    },
+    {
+        "num": 108,
+        "name": "פרדסייה",
+        "alternateName": "פרדסיה",
+        "counter": 3
+    },
+    {
+        "num": 809,
+        "name": "קיסריה",
+        "alternateName": "קיסריה",
+        "counter": 2
+    },
+    {
+        "num": 116,
+        "name": "אבן יהודה",
+        "alternateName": "אבן יהודה",
+        "counter": 2
+    },
+    {
+        "num": 1207,
+        "name": "נצרת",
+        "alternateName": "נצרת",
+        "counter": 2
+    },
+    {
+        "num": 40,
+        "name": "מגדל",
+        "alternateName": "מגדל",
+        "counter": 2
+    },
+    {
+        "num": 1314,
+        "name": "אפרת",
+        "alternateName": "אפרת",
+        "counter": 2
+    },
+    {
+        "num": 287,
+        "name": "שרשרת",
+        "alternateName": "שרשרת",
+        "counter": 2
+    },
+    {
+        "num": 279,
+        "name": "בצרה",
+        "alternateName": "בצרה",
+        "counter": 1
+    },
+    {
+        "num": 1132,
+        "name": "עלי",
+        "alternateName": "עלי",
+        "counter": 1
+    },
+    {
+        "num": 625,
+        "name": "נורית",
+        "alternateName": "נורית",
+        "counter": 1
+    },
+    {
+        "num": 1123,
+        "name": "מגדלים",
+        "alternateName": "מגדלים",
+        "counter": 1
+    },
+    {
+        "num": 1061,
+        "name": "אלון שבות",
+        "alternateName": "אלון שבות",
+        "counter": 1
+    },
+    {
+        "num": 1138,
+        "name": "עץ אפרים",
+        "alternateName": "עץ אפרים",
+        "counter": 1
+    },
+    {
+        "num": 296,
+        "name": "יחיעם",
+        "alternateName": "יחיעם",
+        "counter": 1
+    },
+    {
+        "num": 336,
+        "name": "שורש",
+        "alternateName": "שורש",
+        "counter": 1
+    },
+    {
+        "num": 276,
+        "name": "בני דרור",
+        "alternateName": "בני דרור",
+        "counter": 1
+    },
+    {
+        "num": 1128,
+        "name": "אורנית",
+        "alternateName": "אורנית",
+        "counter": 1
+    },
+    {
+        "num": 1048,
+        "name": "שבי שומרון",
+        "alternateName": "שבי שומרון",
+        "counter": 1
+    },
+    {
+        "num": 1051,
+        "name": "בית אל",
+        "alternateName": "בית אל",
+        "counter": 1
+    },
+    {
+        "num": 1231,
+        "name": "בנימינה-גבעת עדה",
+        "alternateName": "בנימינה-גבעת עדה",
+        "counter": 1
+    },
+    {
+        "num": 1092,
+        "name": "בית אריה",
+        "alternateName": "בית אריה",
+        "counter": 1
+    },
+    {
+        "num": 1074,
+        "name": "עפרה",
+        "alternateName": "עפרה",
+        "counter": 1
+    },
+    {
+        "num": 1254,
+        "name": "ברוכין",
+        "alternateName": "ברוכין",
+        "counter": 1
+    },
+    {
+        "num": 343,
+        "name": "בית דגן",
+        "alternateName": "בית דגן",
+        "counter": 1
+    },
+    {
+        "num": 37,
+        "name": "דגניה א&rsquo;",
+        "alternateName": "דגניה א",
+        "counter": 1
+    },
+    {
+        "num": 1367,
+        "name": "גני מודיעין",
+        "alternateName": "גני מודיעין",
+        "counter": 1
+    },
+    {
+        "num": 1373,
+        "name": "אזור תעשייה אכזיב מילואות",
+        "alternateName": "אזור תעשייה אכזיב מילואות",
+        "counter": 1
+    },
+    {
+        "num": 1081,
+        "name": "קרני שומרון",
+        "alternateName": "קרני שומרון",
+        "counter": 1
+    },
+    {
+        "num": 606,
+        "name": "שלומי",
+        "alternateName": "שלומי",
+        "counter": 1
+    },
+    {
+        "num": 1147,
+        "name": "טלמון",
+        "alternateName": "טלמון",
+        "counter": 1
+    },
+    {
+        "num": 763,
+        "name": "חבר",
+        "alternateName": "חבר",
+        "counter": 1
+    }
+]
