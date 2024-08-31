@@ -1,26 +1,27 @@
+import FirecrawlApp, { CrawlParams, CrawlStatusResponse, MapResponse, ScrapeResponse } from '@mendable/firecrawl-js';
+
+const app = new FirecrawlApp({ apiKey: process.env.NEXT_PUBLIC_FIEWCRAWLAPP });
 
 async function getData(selectedCity: string): Promise<any> {
 
-    const apiEndpoint = process.env.NEXT_PUBLIC_KOMO_APRT_SALE_BY_CITY + selectedCity;
+    // Scrape a website
+    const scrapeResult = await app.scrapeUrl(process.env.NEXT_PUBLIC_KOMO_APRT_SALE_BY_CITY + selectedCity, { formats: ['markdown', 'html'] }) as ScrapeResponse;
 
-    const options = {
-        method: "GET",
-        headers: {
-            "Content-Type": "application/json",
-            "Access-Control-Allow-Origin": "*",
-            "Access-Control-Allow-Methods": "GET",
-            "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept, Authorization",
-        }
-    };
 
-    const response = await fetch(
-        `${apiEndpoint}`,
-        options
-    )
-        .then((response) => response.json())
-        .catch((err) => console.error(err));
+    if (scrapeResult) {
+        console.log(scrapeResult)
+    }
 
-    return response;
+    // Crawl a website
+
+    // const crawlResponse = await app.crawlUrl('https://firecrawl.dev', {
+    //     limit: 100,
+    //     scrapeOptions: {
+    //         formats: ['markdown', 'html'],
+    //     }
+    // })
+
+    return scrapeResult
 }
 
 export default async function getKomoApartments(selectedCity: string) {

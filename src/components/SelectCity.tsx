@@ -4,10 +4,12 @@ import React, { use, useEffect, useState } from 'react';
 import { useQuery } from '@tanstack/react-query';
 import getCities from '@/api/getCitiesListData';
 import getKomoApartments from '@/api/scrape/getKomoApartemnentList';
+import { LoadingWheel } from './LoadingWheel';
 
 
 const SelectCity = () => {
     const [selectedCity, setSelectedCity] = useState('');
+    const [extractedPrices, setExtractedPrices] = useState<number[]>([]);
 
     const { data, isLoading, isError } = useQuery({
         queryFn: async () => await getCities(),
@@ -20,9 +22,24 @@ const SelectCity = () => {
         queryKey: ["komoapartments"],
     });
 
+    const extractPrices = (text: string): number[] => {
+        const pricePattern = /(\d{1,3}(?:,\d{3})*)\s*₪/g;;
+        const matches = text.match(pricePattern);
+
+        if (matches) {
+            return matches.map(price => parseInt(price.replace(/[,₪]/g, ''), 10));
+        }
+
+        return [];
+    };
+
     useEffect(() => {
-        console.log(selectedCity);
-    }, [selectedCity]);
+        if (apartmentsData && apartmentsData.markdown) {
+            const prices = extractPrices(apartmentsData.markdown);
+            setExtractedPrices(prices);
+        }
+    }, [apartmentsData]);
+
 
     if (isLoading) return <div>Loading...</div>;
     if (isError) return <div>Error loading cities</div>;
@@ -51,6 +68,22 @@ const SelectCity = () => {
                         <path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" />
                     </svg>
                 </div>
+            </div>
+
+            {/* apprtment for sale section */}
+            {apartmentsIsLoading && <div className='flex justify-center flex-row'>
+                <p className='text-fuchsia-400'>טוען דירות למכירה</p>
+                <LoadingWheel />
+            </div>}
+            <div className="extracted-prices mt-4">
+                <h3 className="text-lg font-medium text-gray-700 mb-2">Extracted Prices:</h3>
+                <ul className="list-disc pl-5">
+                    {extractedPrices && extractedPrices.map((price, index) => (
+                        <li key={index} className="text-gray-600">
+                            {price.toLocaleString('he-IL', { style: 'currency', currency: 'ILS' })}
+                        </li>
+                    ))}
+                </ul>
             </div>
         </div>
     );
