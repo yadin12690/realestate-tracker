@@ -2,7 +2,7 @@ import { Cities } from "./types/cities";
 
 async function getData(): Promise<Cities> {
 
-    const apiEndpoint = process.env.NEXT_PUBLIC_API_ENDPOINT;
+    const apiEndpoint = process.env.NEXT_PUBLIC_CITIES_LIST;
 
     const options = { method: "GET", headers: { "Content-Type": "application/json", "X-Master-Key": "$2a$10$4qRBiwSV9ahPHzZx3DAEHOpEGSMBHeGleI2I8IMhLmvHEk3rr1bk." } };
 
